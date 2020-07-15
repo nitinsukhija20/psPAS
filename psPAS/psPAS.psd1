@@ -4,7 +4,7 @@
 	RootModule        = 'psPAS.psm1'
 
 	# Version number of this module.
-	ModuleVersion     = '4.0.0'
+	ModuleVersion     = '4.1.11'
 
 	# ID used to uniquely identify this module
 	GUID              = '11c880d2-1430-4bd2-b6e8-f324741b460b'
@@ -182,7 +182,12 @@
 		'Remove-PASDirectoryMapping',
 		'Disable-PASCPMAutoManagement',
 		'Test-PASPSMRecording',
-		'Set-PASPTAEvent'
+		'Set-PASPTAEvent',
+		'Copy-PASPlatform',
+		'Disable-PASPlatform',
+		'Enable-PASPlatform',
+		'Remove-PASPlatform',
+		'Remove-PASGroup'
 	)
 
 	# AliasesToExport   = @( )
